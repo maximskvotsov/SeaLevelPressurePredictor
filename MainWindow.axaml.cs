@@ -17,6 +17,11 @@ public partial class MainWindow : Window
         TextBox_Pressure.TextChanged += TextBox_Pressure_TextChanged;
     }
 
+    double GetPressureFromHeight_atm(double height)
+    {
+
+    }
+
     private void InitializeComponent()
     {
         AvaloniaXamlLoader.Load(this);
